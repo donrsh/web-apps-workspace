@@ -1,0 +1,23 @@
+{
+  "name": "template-remix-spa",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "build": "remix vite:build",
+    "dev": "remix vite:dev",
+    "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
+    "preview": "vite preview",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@remix-run/node": "^2.9.2",
+    "@remix-run/react": "^2.9.2"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
