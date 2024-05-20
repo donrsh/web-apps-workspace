@@ -12,8 +12,8 @@
 
     // publications
     {
-      "name": "storybook",
-      "path": "./publications/storybook"
+      "name": "storybook-react",
+      "path": "./publications/storybook-react"
     }
   ]
 }
