@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "name": "web-apps-workspace",
+      "path": "."
+    },
+    // templates
+    {
+      "name": "template-remix-spa",
+      "path": "./templates/template-remix-spa"
+    },
+
+    // publications
+    {
+      "name": "storybook",
+      "path": "./publications/storybook"
+    }
+  ]
+}
