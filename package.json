@@ -9,9 +9,10 @@
     "workspace:install-deps": "pnpm install"
   },
   "dependencies": {
-    "typescript": "^5.4.5",
+    "nx": "^19.0.4",
     "react": "18.3.1",
     "react-dom": "18.3.1",
+    "typescript": "^5.4.5",
     "vite": "5.2.11"
   },
   "devDependencies": {
@@ -27,6 +28,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
-    "vite-tsconfig-paths": "4.3.2"
+    "vite-tsconfig-paths": "4.3.2",
+    "nx": "19.0.4"
   }
 }
