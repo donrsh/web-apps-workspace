@@ -1,4 +1,4 @@
 packages:
-  - libs
-  - templates
-  - publications
+  - libs/*
+  - templates/*
+  - publications/*
