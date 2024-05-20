@@ -2,18 +2,22 @@
   "folders": [
     {
       "name": "web-apps-workspace",
-      "path": "."
+      "path": ".",
     },
     // templates
     {
       "name": "template-remix-spa",
-      "path": "./templates/template-remix-spa"
+      "path": "./templates/template-remix-spa",
     },
 
     // publications
     {
       "name": "storybook-react",
-      "path": "./publications/storybook-react"
-    }
-  ]
+      "path": "./publications/storybook-react",
+    },
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
 }
