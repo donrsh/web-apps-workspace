@@ -7,7 +7,7 @@
     // templates
     {
       "name": "template-remix-spa",
-      "path": "./templates/template-remix-spa",
+      "path": "./templates/remix-spa",
     },
 
     // publications
