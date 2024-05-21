@@ -1,0 +1,24 @@
+@keyframes rainbow-animation {
+  0% {
+    color: red;
+  }
+  20% {
+    color: orange;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: blue;
+  }
+  100% {
+    color: violet;
+  }
+}
+
+.rainbow {
+  animation: rainbow-animation 3000ms linear alternate infinite;
+}
