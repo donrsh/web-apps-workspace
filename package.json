@@ -6,7 +6,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "workspace:install-deps": "pnpm install"
+    "workspace:install-deps": "pnpm install && nx run-many -t install-deps --exclude=template/*"
   },
   "dependencies": {
     "nx": "^19.0.4",
