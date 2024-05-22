@@ -9,12 +9,13 @@
     "workspace:install-deps": "pnpm install && nx run-many -t install-deps --exclude=template/*"
   },
   "dependencies": {
+    "msw": "2.3.0",
     "nx": "^19.0.4",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "typescript": "^5.4.5",
     "vite": "5.2.11",
-    "msw": "2.3.0"
+    "vitest": "^1.6.0"
   },
   "devDependencies": {
     "@types/react": "18.3.2",
