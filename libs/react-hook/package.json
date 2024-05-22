@@ -1,0 +1,6 @@
+{
+  "name": "lib-react-hook",
+  "scripts": {
+    "test": "vitest --watch"
+  }
+}
