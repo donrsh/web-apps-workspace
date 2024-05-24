@@ -11,6 +11,7 @@
   "dependencies": {
     "msw": "2.3.0",
     "nx": "^19.0.4",
+    "ramda": "^0.30.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "typescript": "^5.4.5",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "^15.0.7",
+    "@types/ramda": "^0.30.0",
     "@types/react": "18.3.2",
     "@types/react-dom": "18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.10.0",
