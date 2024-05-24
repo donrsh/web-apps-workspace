@@ -1,0 +1,6 @@
+{
+  "name": "lib-web-util",
+  "scripts": {
+    "test": "vitest --watch"
+  }
+}

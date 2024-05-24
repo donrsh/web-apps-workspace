@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "types": ["vitest/globals"],
+    "strict": true,
+    "paths": {
+      "@web-util/*": ["./src/*"]
+    }
+  },
+  "include": ["./src"]
+}
