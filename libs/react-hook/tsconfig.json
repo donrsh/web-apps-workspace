@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
     "types": ["vitest/globals"],
-    "strict": true
+    "lib": ["DOM", "ESNext"],
+    "strict": true,
+    "paths": {
+      "@/react-hook/*": ["./src/*"],
+      "@/web-util/*": ["../web-util/src/*"]
+    }
   },
-  "include": ["./src"]
+  "include": ["./src", "../web-util/src"]
 }
