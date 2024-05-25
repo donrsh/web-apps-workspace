@@ -1,0 +1,19 @@
+<mxfile host="65bd71144e">
+    <diagram id="NkXIfnbXDHumyqXN-QGz" name="第1頁">
+        <mxGraphModel dx="578" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;b&gt;Observable&amp;lt;SendEventsDef&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;extends EventsSendder&amp;lt;SendEventsDef&amp;gt;&lt;br&gt;- send(...)&lt;br&gt;&lt;br&gt;id: string&lt;br&gt;type: string&lt;br&gt;observers: Set&amp;lt;Observer&amp;gt;&lt;br&gt;addObserver(Observer): void&lt;br&gt;removeObserver(Observer): void" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="58" width="310" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;Observer&amp;lt;ReceiveEventsDef&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;extends EventsReceiver&amp;lt;ReceiveEventsDef&amp;gt;&lt;br&gt;- on(...), of(...), dispatch(...)&lt;br&gt;&lt;br&gt;id: string&lt;br&gt;type: string&lt;br&gt;observe(Observable): void" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="310" width="310" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;Subject&amp;lt;&lt;/b&gt;&lt;b&gt;SendEventsDef &amp;amp;&amp;nbsp;&lt;/b&gt;&lt;b&gt;ReceiveEventsDef&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;extends Oberserbable&amp;lt;SendEventsDef&amp;gt;&lt;br&gt;extends Observer&amp;lt;ReceiveEventsDef&amp;gt;&lt;br&gt;&lt;br&gt;id: string&lt;br&gt;type: string" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="540" width="310" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
