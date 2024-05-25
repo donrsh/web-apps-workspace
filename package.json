@@ -5,6 +5,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "packageManager": "pnpm@9.1.1",
   "scripts": {
     "workspace:install-deps": "pnpm install && nx run-many -t install-deps --exclude=template/*"
   },
