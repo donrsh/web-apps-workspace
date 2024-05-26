@@ -1,5 +1,5 @@
 {
-  "name": "lib-react-hook",
+  "name": "lib-react",
   "scripts": {
     "test": "vitest --watch"
   }
