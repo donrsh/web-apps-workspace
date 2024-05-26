@@ -1,4 +1,5 @@
 {
+  "extends": ["../../tsconfigs/tsconfig.remix-spa.json"],
   "compilerOptions": {
     "types": ["vitest/globals"],
     "lib": ["DOM", "ESNext"],
