@@ -1,7 +1,7 @@
 {
   "extends": ["../../tsconfigs/tsconfig.remix-spa.json"],
   "compilerOptions": {
-    "types": ["vitest/globals"],
+    "types": ["vitest/globals", "vite/client"],
     "lib": ["DOM", "ESNext"],
     "strict": true,
     "paths": {
