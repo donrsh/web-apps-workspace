@@ -20,9 +20,9 @@ function SourceCodeRefs({
     <details {...rest}>
       <summary>{title}</summary>
       <ul>
-        {data.map((x) => {
+        {data.map((x, idx) => {
           return (
-            <li style={{ marginBlock: -8 }}>
+            <li key={idx} style={{ marginBlock: -8 }}>
               <div className="row-vcenter" style={{ gap: 8 }}>
                 <span style={{ fontWeight: 500 }}>{x.title}</span>
                 <span>
